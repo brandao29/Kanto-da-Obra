@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanto da Obra | Engenharia Civil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #fdc323;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+    }
+    header h1 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    header p {
+      margin: 1rem 0 0 ;
+      font-size: 1.5rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section h2 {
+      border-left: 5px solid #f2b705;
+      padding-left: 0.5rem;
+      font-size: 1.5rem;
+    }
+    .servicos ul {
+      list-style: none;
+      padding: 0;
+    }
+    .servicos li {
+      background-color: #fff3cd;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+    .contato form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contato input,
+    .contato textarea {
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contato button {
+      background-color: lab(41.42% -0.93 22.82 / 0.034);
+      border: none;
+      padding: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .whatsapp-button img {
+      width: 40px;
+      height: 40px;
+    }
+    .portfolio {
+      background-color: #fff;
+      padding: 2rem 1rem;
+      border-radius: 8px;
+    }
+    .portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .portfolio-item {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .portfolio-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .instagram-button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #E1306C;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.instagram-button img {
+  width: 30px;
+  height: 30px;
+}
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Kanto da Obra Logo" />
+    <h1></h1>
+    <p></strong>Projetos de Engenharia Civil com qualidade e precisão<strong></strong></p>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p><strong>Somos especialistas em projetos de engenharia civil. Atuamos com foco em soluções técnicas eficientes, seguras e sob medida para construções residenciais, comerciais e industriais.</p>
+  </section>
+
+  <section class="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>📐 Projetos Estruturais</li>
+      <li>🏗️ Cálculo e Dimensionamento</li>
+      <li>🏢 Projetos Arquitetônicos Complementares</li>
+      <li>📊 Consultoria Técnica</li>
+    </ul>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="predio.PNG" alt="Projeto 1">
+        <p>Prédio Comercial</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="casa.PNG" alt="Projeto 2">
+        <p>Projeto Residencial</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="15 andares.PNG" alt="Projeto 3">
+        <p> Prédio Residencial</p>
+      </div> 
+      <div class="portfolio-item">
+        <img src="comercial.PNG" alt="Projeto 4">
+        <p>Projeto Residêncial Luxuoso</p>
+      </div>
+  </section>
+
+  <section class="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Nome" required />
+      <input type="email" placeholder="E-mail" required />
+      <textarea rows="5" placeholder="Mensagem ou solicite seu orçamento" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/+55 86 9944-0014" target="_blank" title="Fale conosco pelo WhatsApp">
+    <img src="whatsapp-logo.png" alt="WhatsApp">
+  <a class="instagram-button" href="https://www.instagram.com/kantodaobra/?igsh=MWlodDNzc2tsazRhMw%3D%3D#" target="_blank" title="Visite nosso Instagram">
+    <img src="instagram-logo.png" alt="Instagram">
+  </a> 
+
+  <footer>
+    <p>&copy; 2025 Kanto da Obra | Engenharia Civil</p>
+    <p> Parnaíba - PI</p>
+  </footer>
+</body>
+</html>
